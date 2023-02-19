@@ -1,2 +1,2 @@
 # code-blog-academy
-Blog website example
+Navbar - Dropdown - Offcanvas - Cards - Login - Signup examples

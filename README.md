@@ -1,2 +1,3 @@
 # code-blog-academy
-Responsive website
+Responsive website<br>
+Navbar - Dropdown - Offcanvas - Cards - Login - Signup examples

@@ -1,0 +1,180 @@
+body {
+  background: rgb(248, 248, 250);
+  /*background:rgb(13,17,23);*/
+}
+
+/*---------NAVBAR---------*/
+.navbar {
+  height: 70px;
+  z-index: 1;
+  /*background: white;
+  box-shadow: 0px 1px 2px 0px rgb(170, 170, 170);*/
+  box-shadow: 0px 2px 4px 0px #303030;
+  background: #303030;
+}
+
+.nav-link {
+  /*color: black;*/
+  color: white;
+  font-family: 'Montserrat';
+}
+
+.nav-link:hover {
+  /*color: black;*/
+  color: rgb(170, 170, 170);
+  /*font-weight: bold;*/
+}
+
+.navbar-toggler {
+  background-color: rgb(165, 165, 165);
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+/*---------DROPDOWN---------*/
+.dropdown-menu {
+  width: 180px;
+  /*background-color: white;*/
+  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+  /*box-shadow: 0px 1px 3px 0px rgba(16, 16, 16, 0.923);*/
+  background: #303030;
+  z-index: 1;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Montserrat';
+}
+
+.dropdown-item {
+  padding: 6px 12px;
+  /*color: black;*/
+  color: white;
+}
+
+.dropdown-item:hover {
+  color: black;
+}
+
+/*---------IMG---------*/
+.img-fluid {
+  margin: auto;
+  width: 1300px;
+  height: 600px;
+  border: 0px solid;
+  border-color: blue;
+}
+
+#ftp {
+  margin-top: 4%;
+  width: 1300px;
+  height: 600px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 2px 0px rgb(150, 150, 150);
+  /*box-shadow: 0px 2px 2px 0px  rgb(100, 100, 100);*/
+}
+
+/*----------CARD--------*/
+.container {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  height: auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  /*background-color: rgb(1,4,9);*/
+  box-shadow: 0px 1px 1px 0px rgb(150, 150, 150);
+}
+
+.card-title {
+  color: black;
+  font-family: Archivo;
+  font-weight: normal;
+}
+
+.card-text {
+  color: rgb(72, 72, 72);
+  /*color:rgb(96, 96, 96);*/
+}
+
+/*-----------BUTTON------------*/
+.btn {
+  letter-spacing: 0.08em;
+  font-size: 0.9rem;
+  background-color: transparent;
+  border: none;
+  border-radius: 6px;
+  color: black;
+  /*color: rgb(183, 183, 183);*/
+}
+
+.btn:hover {
+  /*color:rgb(105, 105, 110);*/
+  background-color: transparent;
+  background: #303030;
+  color: whitesmoke;
+}
+
+.offcanvas {
+  background-color: rgb(248, 248, 250);
+}
+
+.offcanvas-header {
+  background-color: rgb(248, 248, 250);
+  height: 70px;
+  color: black;
+  border-bottom: 1px solid;
+  border-color: #303030;
+  /*box-shadow: 0px 1px 2px 0px rgb(70, 70, 70);*/
+}
+
+h5,
+h6 {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+/*Telefonlarda olan görünüm*/
+@media screen and (max-width:1000px) {
+  .navbar {
+    height: auto;
+    box-shadow: none;
+  }
+
+  .navbar-toggler {
+    background-color: white;
+    border: none;
+    font-size: 17px;
+  }
+
+  .dropdown-menu {
+    width: 100%;
+    background: rgb(40, 40, 40);
+  }
+
+  .img-fluid {
+    width: 374px;
+    height: 100%;
+  }
+
+  #ftp {
+    width: 374px;
+    height: 100%;
+  }
+
+  .container {
+    margin-top: 0%;
+  }
+
+  .btn {
+    background-color: #303030;
+    color: whitesmoke;
+  }
+}

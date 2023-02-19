@@ -1,0 +1,133 @@
+body {
+    background: #ecebec;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-box {
+    margin-top: 5%;
+    height: auto;
+    background: #303030;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgb(20, 20, 20);
+}
+
+/*.login-title 
+{
+    margin-top: 105px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ECF0F5;
+}*/
+
+.login-form {
+    margin-top: 50px;
+    text-align: left;
+}
+
+input[type=text],
+[type=email],
+input[type=password] {
+    background-color: transparent;
+    /* #1e2021; */
+    border: none;
+    border-bottom: 2px solid #a8c0c6;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 40px;
+    outline: 0px;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 2px solid #0DB8DE;
+    outline: 0;
+    background-color: transparent;
+    color: white;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0;
+}
+
+label {
+    margin-bottom: 0px;
+}
+
+.form-control-label {
+    font-size: 12px;
+    color: white;
+    /*font-weight: bold;*/
+    letter-spacing: 1px;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: white;
+    letter-spacing: 0.7px;
+    box-shadow: 0px 0px 1px 1px white;
+    border-radius: 8px;
+}
+
+.btn-outline:hover {
+    background-color: rgb(8, 170, 80);
+    color: white;
+    box-shadow: 0 0 0 0;
+}
+
+.login-btm {
+    float: left;
+}
+
+.login-button {
+    padding-right: 0px;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.login-text {
+    text-align: left;
+    padding-left: 0px;
+    color: #A2A4A4;
+}
+
+.loginbttm {
+    padding: 0px;
+}
+
+.logo {
+    margin-left: 42.5%;
+    margin-bottom: 5%;
+    width: 70px;
+    height: 70px;
+}
+
+/*Telefonlarda olan görünüm*/
+@media screen and (max-width:500px) {
+    body {
+        background: #303030;
+    }
+
+    .login-box {
+        border: none;
+        box-shadow: none;
+    }
+
+    .form-control-label {
+        font-size: 12px;
+    }
+}

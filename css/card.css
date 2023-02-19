@@ -1,0 +1,33 @@
+body {
+    background: rgb(248, 248, 250);
+    font-family: Archivo;
+}
+
+.row {
+    width: 1000px;
+    margin: auto;
+    border: 1px solid;
+    border-color: darkgray;
+    border-radius: 12px;
+}
+
+#img {
+    width: 305px;
+    height: 200px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.col-6 {
+    height: auto;
+    border: 1px solid;
+    border-color: rgb(0, 81, 255);
+    border-radius: 12px;
+}
+
+.col-5 {
+    height: auto;
+    border: 1px solid;
+    border-color: rgb(0, 81, 255);
+    border-radius: 12px;
+}
